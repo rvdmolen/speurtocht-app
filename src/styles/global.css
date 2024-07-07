@@ -41,3 +41,17 @@ html {
 	justify-content: space-evenly;
 	align-items: center;
 }
+
+
+.comp {
+	position: relative;
+	display: grid;
+	width: 50%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.comp {
+		width: 70%;
+	}
+}

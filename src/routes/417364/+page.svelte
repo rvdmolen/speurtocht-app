@@ -2,9 +2,11 @@
 	import Login from '../../components/login.svelte';
 	import { questions } from '../../model/questions.js';
 
-	let { text: questionText } = questions[3];
-	let locked = $state(true);
-	let question = $state(questionText);
+	console.log('hier ben ik nu');
+
+	let { text: questionText } = questions[4];
+	let locked = true;
+	let question = questionText;
 
 	const loginCompleted = () => {
 		locked = false;
@@ -22,17 +24,3 @@
 	{/if}
 </div>
 
-<style>
-	.comp {
-		position: relative;
-		display: grid;
-		width: 50%;
-		text-align: center;
-	}
-
-	@media only screen and (max-width: 600px) {
-		.comp {
-			width: 70%;
-		}
-	}
-</style>
