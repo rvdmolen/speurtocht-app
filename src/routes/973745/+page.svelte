@@ -3,4 +3,4 @@
 	import { questions } from '../../model/questions.js';
 </script>
 
-<Question question={questions[3]} />
+<Question question={questions[9]} />

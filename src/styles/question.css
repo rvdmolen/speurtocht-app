@@ -1,0 +1,12 @@
+.question-container {
+	position: relative;
+	display: grid;
+	width: 50%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.question-container {
+		width: 70%;
+	}
+}

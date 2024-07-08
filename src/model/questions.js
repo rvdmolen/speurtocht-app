@@ -31,4 +31,28 @@ export const questions = [
 		id: 7,
 		text: 'Zing uit volle borst Europapa van Joost Klein en stuur hiervan een filmpje'
 	},
+	{
+		id: 8,
+		text: 'Zing een liedje'
+	},
+	{
+		id: 9,
+		text: 'Doe een dansje'
+	},
+	{
+		id: 10,
+		text: 'Draai een rondje'
+	},
+	{
+		id: 11,
+		text: 'Spring in de lucht'
+	},
+	{
+		id: 12,
+		text: 'Speel tikkertje'
+	},
+	{
+		id: 13,
+		text: 'Fluit het volkslied'
+	}
 ];
