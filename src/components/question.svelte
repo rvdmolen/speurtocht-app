@@ -1,6 +1,7 @@
 <script>
 	import Login from './login.svelte';
 
+    let password = 'lotte';
 	let { question } = $props();
 	let locked = $state(true);
 
@@ -11,11 +12,11 @@
 
 <div class="question-container">
 	{#if locked}
-		<Login {loginCompleted} />
+		<Login {loginCompleted} {password} />
 	{:else}
 		<div class="question">
 			<h1>{question?.text}</h1>
-			<h3>Stuur het antwoord via whatsapp</h3>
+			<h3>Stuur het antwoord door via whatsapp 😁 en jullie krijgen een letter!</h3>
 		</div>
 	{/if}
 </div>

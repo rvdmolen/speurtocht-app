@@ -1,8 +1,7 @@
 <script>
 	let password = $state('');
 	let error = $state('');
-	let { loginCompleted } = $props();
-	const PASS = 'lotte';
+	let { loginCompleted, password : PASS } = $props();
 
 	const login = () => {
 		if (password === PASS) {

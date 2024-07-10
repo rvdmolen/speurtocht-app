@@ -13,7 +13,7 @@ export const questions = [
 	},
 	{
 		id: 3,
-		text: 'Bel ergens aan en vraag om een wasknijper!'
+		text: 'Bel ergens aan, vraag om een wasknijper en maak een foto!'
 	},
 	{
 		id: 4,
@@ -21,38 +21,34 @@ export const questions = [
 	},
 	{
 		id: 5,
-		text: 'Ga naar het Luifeltje, jullie mogen een lekker ijsje uitkiezen! Ijsje op? Dan krijgen jullie de volgende foto'
+		text: 'Ga naar het Luifeltje, jullie mogen een lekker ijsje uitkiezen (is al betaald)! Ijsje op? Dan krijgen jullie de volgende foto'
 	},
 	{
 		id: 6,
-		text: 'Zie je een auto? Laat deze toeteren en stuur een filmpje!'
+		text: 'Vraag of mensen wat met jullie willen ruilen! Er zit iets lekkers in de tas om te gebruiken. Ruil het 2x en maak een foto van het moment dat wordt geruild!!'
 	},
 	{
 		id: 7,
-		text: 'Zing uit volle borst Europapa van Joost Klein en stuur hiervan een filmpje'
+		text: 'Schrijf het woord Music, en teken een microfoon met muzieknoten. Er zit stoepkrijt in de tas!'
 	},
 	{
 		id: 8,
-		text: 'Zing een liedje'
+		text: 'Maak een selfie van jullie allemaal en er moeten minimaal 3 op de schommel zitten!'
 	},
 	{
 		id: 9,
-		text: 'Doe een dansje'
+		text: 'Zing uit volle borst Europapa van Joost Klein en maak een filmpje!'
 	},
 	{
 		id: 10,
-		text: 'Draai een rondje'
+		text: 'Even ontspannen, Een potje tafelvoetbal!! Speel de bal 15x over en maak een filmpje.'
 	},
 	{
 		id: 11,
-		text: 'Spring in de lucht'
+		text: 'Maak een woord van de bekertjes en maak een foto!'
 	},
 	{
 		id: 12,
-		text: 'Speel tikkertje'
-	},
-	{
-		id: 13,
-		text: 'Fluit het volkslied'
+		text: 'Jullie mogen de grond niet meer aanraken! Maak een foto!'
 	}
 ];
