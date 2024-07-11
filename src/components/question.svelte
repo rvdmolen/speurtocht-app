@@ -1,7 +1,7 @@
 <script>
 	import Login from './login.svelte';
 
-    let password = 'lotte';
+  let password = 'lotte';
 	let { question, children } = $props();
 
 	let locked = $state(true);

@@ -54,7 +54,7 @@
 	.input {
 		position: relative;
 		display: flex;
-		width: 100%;
+	  min-width: 20rem;
 		justify-self: center;
 	}
 

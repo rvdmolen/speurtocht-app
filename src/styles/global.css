@@ -12,27 +12,28 @@
 	--purple-dark: #550cae;
 	--purple: #9d7ace;
 	--gradient: linear-gradient(180deg, rgba(49, 172, 168, 0.73) 0%, #431692 100%);
-	font-family: var(--font-body);
-	color: var(--color-text);
+
 }
 
-body {
-	min-height: 100dvh;
-	height: 100%;
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: var(--font-body), serif;
 	margin: 0;
-
+	padding: 0;
+	line-height: 1.5;
 	color: var(--white);
-}
-
-html {
-	height: 100%;
+	overflow-x: hidden;
 	background: var(--gradient);
 }
 
+
 .container {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: min-content 1fr;
 }
 
 .content {
