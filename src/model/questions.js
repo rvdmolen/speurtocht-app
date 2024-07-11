@@ -5,7 +5,7 @@ export const questions = [
 	},
 	{
 		id: 1,
-		text: 'Rebus oplossen maar'
+		text: 'Los de onderstaande twee rebussen op!'
 	},
 	{
 		id: 2,
