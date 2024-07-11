@@ -37,11 +37,11 @@ export const questions = [
 	},
 	{
 		id: 9,
-		text: 'Zing uit volle borst Europapa van Joost Klein en maak een filmpje!'
+		text: 'Zing uit volle borst Europapa van Joost Klein en maak een filmpje! (er zit een box in de tas 😁)'
 	},
 	{
 		id: 10,
-		text: 'Even ontspannen, Een potje tafelvoetbal!! Speel de bal 15x over en maak een filmpje.'
+		text: 'Hebben jullie de zak gevonden?? Raad wat erin zit! (niet open maken natuurlijk!!)'
 	},
 	{
 		id: 11,
@@ -49,6 +49,10 @@ export const questions = [
 	},
 	{
 		id: 12,
-		text: 'Jullie mogen de grond niet meer aanraken! Maak een foto!'
+		text: 'Zien jullie de wip-wap? Ga erop en zorg dat de wip-wap in evenwicht is!'
+	},
+	{
+		id: 13,
+		text: 'Maak van al jullie letters het woord! De uitkomst is jullie 🎉 PRIJS 🎉!!'
 	}
 ];
