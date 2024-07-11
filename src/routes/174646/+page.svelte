@@ -9,7 +9,7 @@
 </script>
 
 <Question question={questions[1]}>
-	<div class="images"> 
+	<div class="images">
 		<img alt="Rebus1" src={rebus1} />
 		<img alt="Rebus2" src={rebus2} />
 	</div>
@@ -18,8 +18,13 @@
 <style>
 	.images {
 		display: flex;
+		align-items: center;
 		flex-direction: column;
 		gap: 24px;
+	}
+
+	img {
+		width: 90%;
 	}
 </style>
 
