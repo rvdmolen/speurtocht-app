@@ -9,7 +9,7 @@ export const questions = [
 	},
 	{
 		id: 2,
-		text: 'Maak een selfie met een padeller! Jullie moeten er allemaal op staan.'
+		text: 'Maak een toren van 6 STAANDE blokken hoog!'
 	},
 	{
 		id: 3,
